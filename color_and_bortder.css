@@ -1,0 +1,37 @@
+.color{
+    background-color: aqua;
+}
+.solid{
+    border: 2px solid black;
+}
+.dottad{
+    border: 5px dotted black;
+}
+.dashed{
+    border: 5px dashed black;
+}
+.solid{
+    border: 3px solid black;
+}
+.double{
+    border: 6px double black;
+}
+.groove{
+    border: 6px groove black;
+}
+.ridge{
+    border: 6px ridge black;
+}
+.inset{
+    border: 6px inset black;
+}
+.outset{
+    border: 6px outset black;
+}
+.hidden{
+    border: hidden;
+}
+.mix{
+    border-style: dotted solid dashed double;
+}
+

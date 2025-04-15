@@ -1,0 +1,65 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+  
+.container {
+    display: flex;
+    width: 100%;
+  }
+  
+
+.sidebar{
+    width: 200px;
+    height: 300px;
+    background-color: lightblue;
+    padding: 15px;
+    float: left;
+    overflow: visible scroll;
+    margin-right: 20px;
+}
+  
+ 
+.main-content {
+    background-color: #36b0f7;
+    height: 9in;
+    font-size: larger;
+    padding: 20px;
+    position: relative; 
+
+}
+  
+  
+.child {
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    float: right;
+    top: 10px;
+    right: 10px; 
+}
+.child2 {
+    background-color: rgb(0, 0, 0);
+    color: aqua;
+    width: 250px;
+    height: 150px;
+    padding: 15px;
+    float: right;
+    clear: right;
+    top: 10px;
+    right: 10px; 
+}
+  
+p {
+    margin-bottom: 20px;
+    
+}
+  

@@ -1,0 +1,133 @@
+*
+{
+    background-color: yellow;
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+
+.container{
+  display: grid;
+  background-color: #2196F3;
+  margin: 10px;
+  padding: 10px;
+  grid-template-columns: 90px auto repeat(10,70px);
+  grid-template-rows: 30px 10px 30px 100px 100px 40px 300px 300px;
+
+}
+
+div{
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  gap: 20px;
+}
+.box1{
+    grid-area: 1/1/2/2;
+}
+.box2{
+    grid-area: 1/3/2/5;
+}
+.box3{
+    grid-area: 1/5/2/7;
+}
+.box4{
+    grid-area: 1/7/2/9;
+}
+.box5{
+    grid-area: 1/9/2/11;
+}
+.box6{
+    grid-area: 1/11/2/13;
+}
+.image1{
+    grid-area: 3/2/6/4;
+}
+.text1{
+    grid-area: 3/5/4/13;
+    font-size: 20px;
+}
+
+.image2{
+    grid-area: 4/5/5/7;
+}
+.image3{
+    grid-area: 4/7/5/9;
+
+}
+.image4{
+    grid-area: 4/9/5/11;
+    font-size: 30px;
+
+}
+.image5{
+    grid-area: 4/11/5/13;
+    font-size: 30px;
+
+}
+.image6{
+    grid-area: 5/5/6/7;
+    font-size: 30px;
+
+} 
+.image7{
+    grid-area: 5/7/6/9;
+    font-size: 30px;
+
+}
+.image8{
+    grid-area: 5/9/6/11;
+    font-size: 30px;
+
+}
+.image9{
+    grid-area: 5/11/6/13;
+    font-size: 30px;
+
+}
+
+.text2{
+    grid-area: 6/1/7/13;
+    font-size: 20px;
+    text-align: left;
+}
+.image10{
+    grid-area: 7/1/8/3;
+    font-size: 70px;
+    padding-top: 10%;
+}
+.image11{
+    grid-area: 7/3/8/8;
+    font-size: 70px;
+    padding-top: 20%;
+}
+.image12{
+    grid-area: 7/8/8/13;
+    font-size: 70px;
+    padding-top: 20%;
+}
+.image13{
+    grid-area: 8/1/9/3;
+    font-size: 70px;
+    padding-top: 10%;
+}
+.image14{
+    grid-area: 8/3/9/8;
+    font-size: 70px;
+    padding-top: 20%;
+}
+.image15{
+    grid-area: 8/8/9/13;
+    font-size: 70px;
+    padding-top: 20%;
+}
+
+
+
+
